@@ -12,10 +12,16 @@ const ItemTask = ({ task }) => {
       };
   return (
     <li className="task-item">
-        <div style={circleStyle}></div>
-      <h3 id='taskTitle'>{task.title}</h3>
-      <p id='descriptionTask'>{task.description}</p>
-      <input id='check'type="checkbox" checked={task.checkpoint}  />
+      <div className='infoTasks'>
+      <div style={circleStyle}></div>
+      <h3 className='taskTitle'>{task.title}</h3>
+      <p className='descriptionTask'>{task.description}</p>
+      </div>
+        
+      <div className='checksContainer'>
+      <input className='checks' type="checkbox" checked={task.checkpoint}  />
+      </div>
+      
     </li>
   );
 };

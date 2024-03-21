@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './tasks.css'
 import ItemTask from '../itemTask/ItemTask';
+import { TasksContext } from '../Context/Context';
 
 
-const Tasks = ({ tasks }) => {
+const Tasks = ({  }) => {
+  const {tasks} = useContext(TasksContext)
   return (
     <ul className="tasks-list">
       {tasks.map((task) => (

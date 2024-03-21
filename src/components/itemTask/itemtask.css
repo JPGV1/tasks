@@ -7,6 +7,7 @@
 .taskTitle{
     margin: 0.4rem;
     font-size: 2rem;
+    gap: 20px;
 }
 .descriptionTask{
 font-size: 1.6rem;
@@ -17,6 +18,7 @@ margin: 0.4rem;
     width: 80%;
     justify-content: flex-start;
     align-items: center;
+    gap: 18rem;
 }
 .checksContainer{
 width: 10%;
@@ -39,3 +41,5 @@ input[type="checkbox"] {
     background-color: #25005e;
     appearance: none;
   }
+
+  

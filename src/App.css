@@ -5,14 +5,7 @@
   padding: 0rem;
   text-align: center;
 }
-.TasksContainer{
-  border-radius: 5rem 5rem 5rem 5rem;
-  display: flex;
-  padding-bottom: 4rem;
-  margin: 1rem 0 1rem 4rem;
-  background-color: #25005e;
-  align-self: center;
-  width: 90%;
-  
+#pendingandDone{
+  margin-top: 0.5rem;
 }
 
